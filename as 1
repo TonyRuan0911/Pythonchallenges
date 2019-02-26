@@ -1,0 +1,81 @@
+#1
+a = 7//3
+print (a)
+p = 7%3
+print (p)
+
+
+
+#2
+q = 'All '
+w = 'work '
+e = 'and '
+r = 'no '
+t = 'play '
+y = 'makes '
+u = 'Jack ' 
+i = 'a '
+o = 'dull '
+p = 'boy'
+print (q +w +e +r +t +y +u +i +o +p)
+
+#3
+print(6*(1-2))
+#4
+#1234567890
+#5
+bruce = 6
+print(bruce + 4)
+
+
+
+#6
+print(5//2)
+print(5%2)
+
+print(9//5)
+print(9%5)
+
+print(0//7)
+print(0%7)
+
+# denominator can not be zero
+
+
+#7
+p = float(input('principal amount'))
+r = float(input('annual nominal interest rate as a decimal'))
+n = int(input('how many times he interest is compounded per year'))
+t = int(input('how many years'))
+
+z = r/n
+x = 1+z
+c = n*t
+v = x**c
+b = p*v
+print(b)
+
+
+
+
+
+#8
+x = int(input('hours for charging'))
+
+z = int(input('what time is is now in 24hr'))
+
+a = (x//24)
+
+b = (x%24)
+
+c = (b+z)
+
+print('alarm goes off time is ',c,'oclock after',a,'day')
+
+
+
+
+
+
+
+
